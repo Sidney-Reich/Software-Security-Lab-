@@ -1,0 +1,6 @@
+# Keep Unix line endings for everything that runs inside the Linux containers, even in a clone made on Windows.
+*.sh  text eol=lf
+*.py  text eol=lf
+Dockerfile text eol=lf
+*.ps1 text eol=crlf
+*.pt  binary

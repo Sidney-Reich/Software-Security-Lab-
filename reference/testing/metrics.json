@@ -1,0 +1,41 @@
+{
+ "model": "/bgru.pt",
+ "test": {
+  "TP": 78,
+  "FP": 0,
+  "FN": 2,
+  "TN": 311,
+  "FPR": 0.0,
+  "FNR": 0.025,
+  "accuracy": 0.9948849104859335,
+  "precision": 1.0,
+  "recall": 0.975,
+  "F1": 0.9873417721518987
+ },
+ "train_test_overlap": {
+  "test_slices": 391,
+  "with_identical_train_slice": 169,
+  "same_label_in_train": 169,
+  "other_label_in_train": 0,
+  "metrics_without_them": {
+   "TP": 38,
+   "FP": 0,
+   "FN": 2,
+   "TN": 182,
+   "FPR": 0.0,
+   "FNR": 0.05,
+   "accuracy": 0.990990990990991,
+   "precision": 1.0,
+   "recall": 0.95,
+   "F1": 0.9743589743589743
+  }
+ },
+ "benchmark": {
+  "threads": 2,
+  "torch": "2.4.1+cpu",
+  "cpus": 2,
+  "inference_slices_per_s_batch64": 56.5,
+  "inference_ms_per_slice_batch1": 41.73,
+  "peak_rss_mb": 286
+ }
+}

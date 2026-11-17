@@ -1,0 +1,140 @@
+{
+ "corpus_slices": {
+  "api_slices.pkl": 1148, 
+  "array_slices.pkl": 1, 
+  "expr_slices.pkl": 49, 
+  "pointer_slices.pkl": 765
+ }, 
+ "corpus_vulnerable": {
+  "api_slices.pkl": 188, 
+  "array_slices.pkl": 0, 
+  "expr_slices.pkl": 2, 
+  "pointer_slices.pkl": 224
+ }, 
+ "duplicates": {
+  "api_slices.txt": 552, 
+  "array_slices.txt": 459, 
+  "expr_slices.txt": 2, 
+  "pointer_slices.txt": 2095
+ }, 
+ "final_test": {
+  "api_test.pkl": [
+   217, 
+   38, 
+   32
+  ], 
+  "integeroverflow_test.pkl": [
+   14, 
+   1, 
+   5
+  ], 
+  "pointersuse_test.pkl": [
+   160, 
+   41, 
+   49
+  ]
+ }, 
+ "final_train": {
+  "api_0_.pkl": [
+   232, 
+   36, 
+   38
+  ], 
+  "api_1_.pkl": [
+   259, 
+   42, 
+   37
+  ], 
+  "api_2_.pkl": [
+   230, 
+   40, 
+   35
+  ], 
+  "api_3_.pkl": [
+   210, 
+   32, 
+   31
+  ], 
+  "arraysuse_0_.pkl": [
+   1, 
+   0, 
+   1
+  ], 
+  "integeroverflow_0_.pkl": [
+   13, 
+   1, 
+   5
+  ], 
+  "integeroverflow_1_.pkl": [
+   22, 
+   0, 
+   8
+  ], 
+  "pointersuse_0_.pkl": [
+   84, 
+   30, 
+   33
+  ], 
+  "pointersuse_1_.pkl": [
+   96, 
+   27, 
+   31
+  ], 
+  "pointersuse_2_.pkl": [
+   122, 
+   32, 
+   34
+  ], 
+  "pointersuse_3_.pkl": [
+   91, 
+   32, 
+   34
+  ], 
+  "pointersuse_4_.pkl": [
+   104, 
+   31, 
+   33
+  ], 
+  "pointersuse_5_.pkl": [
+   108, 
+   31, 
+   35
+  ]
+ }, 
+ "peak_rss_mb": 125.1, 
+ "programs": 263, 
+ "slices_in": {
+  "api_slices.txt": 1700, 
+  "array_slices.txt": 460, 
+  "expr_slices.txt": 51, 
+  "pointer_slices.txt": 2860
+ }, 
+ "test_programs": 53, 
+ "times_s": {
+  "create_hash": 0.11, 
+  "create_w2vmodel": 82.49, 
+  "dealrawdata": 19.6, 
+  "delete_list": 0.07, 
+  "fixed_test_split": 3.33, 
+  "get_dl_input_vectors": 13.77, 
+  "get_dldata_split": 17.15, 
+  "process_dataflow_func": 11.36
+ }, 
+ "tokens_per_slice": {
+  "max": 117, 
+  "median": 62, 
+  "min": 12, 
+  "over_500": 0, 
+  "p90": 95, 
+  "p99": 111
+ }, 
+ "total_test": {
+  "slices": 391, 
+  "vulnerable": 80
+ }, 
+ "total_train": {
+  "slices": 1572, 
+  "vulnerable": 334
+ }, 
+ "vocabulary": 73
+}

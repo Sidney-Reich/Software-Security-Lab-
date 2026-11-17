@@ -1,0 +1,13 @@
+stage,wall_s,user_s,sys_s,max_rss_kb,cpu_pct
+fetch_juliet,13.56,1.81,0.88,62016,19%
+select_programs,0.90,0.19,0.27,11080,51%
+joern_parse,56.88,55.22,3.74,647604,103%
+get_cfg_relation,283.51,133.05,12.11,115764,51%
+complete_PDG,953.54,207.69,22.40,115692,24%
+access_db_operate,196.84,21.94,2.90,35568,12%
+points_get,199.31,30.77,3.43,507556,17%
+extract_df,14.16,9.87,2.15,64568,84%
+contain_all,2.42,1.92,0.47,10620,98%
+make_label_sard,0.27,0.24,0.01,10020,97%
+check_labels,2.09,1.53,0.17,41160,81%
+vectorize,167.32,159.04,5.11,128112,98%
